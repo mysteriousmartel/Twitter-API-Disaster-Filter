@@ -83,6 +83,13 @@
 
 - There is also a secondary issue that the NL API does not classify by individual words as easily, moreso topics and themes.
 
+## How to Use
+
+- Download FirstCheck_UI.py, first_check.py, firstcheckmain.py, sentimentanalyzer.py, and us_cities_states_counties.csv
+- Run FirstCheck_UI with the command "python FirstCheck_UI.py"; a window should open with command options
+- To test the system works, select "Earthquake" and then input city name as "Washington DC"
+  - Output should be fed back to you through the terminal, listing words related to earthquakes in the area of Washington DC with positive/negative sentiments applied
+  
 ## Updates
 
 - 9/29/19: Decided to use IBM Natural Language API instead of Google. IBM has a larger keyword and entity dictionary by which it categorizes phrases, and therefore is easier to implement when searching for natural disasters and locations.
